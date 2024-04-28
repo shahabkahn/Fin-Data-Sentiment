@@ -1,0 +1,9 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.3, pytest-8.2.0, pluggy-1.5.0
+rootdir: C:\Users\Shahab\Desktop\Fin-Data-Sentiment-API
+plugins: anyio-4.3.0
+collected 3 items
+
+test_main.py ...                                                         [100%]
+
+============================== 3 passed in 7.56s ==============================

@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+transformers
+nest-asyncio
+torch
+pytest
