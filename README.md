@@ -40,7 +40,7 @@
 #### To use the Docker container, follow these steps:
 * Open the project directory in your terminal.
 * Build a Docker image using the following command
-   'docker build -t api_image .'
+    `docker build -t api_image .`
 * Creating a Docker container from the built image
    'docker run -p 8000:8000 api_image'
 * The API will be available at http://localhost:8000
