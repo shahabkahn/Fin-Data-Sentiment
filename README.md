@@ -44,12 +44,18 @@
 * Creating a Docker container from the built image
    - `docker run -p 8000:8000 api_image`
 * The API will be available at http://localhost:8000
-* The API documentaion will be avaialable at http://localhost:8000/docs or http://localhost:8000/redoc
+* The API documentaion will be available at http://localhost:8000/docs or http://localhost:8000/redoc
 
 ## API Usage
-
+#### The API provides the following endpoints:
+* GET /: Welcome endpoint (greetings message)
+* POST /analyze/: Analyze endpoint, for sentiment classification of financial data.
 
 ## API Testing
-
+#### The API can be tested with the following command:
+`pytest`
 
 ## Model
+#### The API is using the `mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis` model from the Hugging Face model hub. This model is a fine-tuned version of distilroberta-base on the financial_phrasebank dataset. It achieves the following results on the evaluation set: 
+- Loss: 0.1116
+- Accuracy: 0.9823
