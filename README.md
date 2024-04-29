@@ -21,3 +21,24 @@
 * Pyngrok: A Python wrapper for ngrok, which exposes local servers over public URLs.
 * Nest_asyncio: A library for running asyncio nested in other asyncio loops.
 * Pydantic: A data validation library
+
+## Code Overview
+#### The main files of the code are:
+* main.py: This file contains the FastAPI application, including the definition of endpoints, and model integration.
+* test_.py: This file contains 3 tests for the API endpoints using FastAPI's TestClient.
+* Dockerfile: The Dockerfile has all instructions for building the Docker image for the API.
+* requirements.txt: This file has all the dependencies required by the project.
+
+## Installation
+
+
+## Docker Container
+
+
+## API Usage
+
+
+## API Testing
+
+
+## Model
