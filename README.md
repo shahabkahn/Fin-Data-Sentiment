@@ -12,4 +12,4 @@
 * Model
 
 ## Introduction
-### The main purpose of this project is to develop an API for sentiment analysis tasks using FastAPI, Docker, and Hugging Face Transformers. It passes input through the model to classify the sentiment as positive, negative, or neutral.
+#### The main purpose of this project is to develop an API for sentiment analysis tasks using FastAPI, Docker, and Hugging Face Transformers. It passes input through the model to classify the sentiment as positive, negative, or neutral.
