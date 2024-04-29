@@ -30,10 +30,21 @@
 * requirements.txt: This file has all the dependencies required by the project.
 
 ## Installation
-
+#### To use the API locally, follow these steps:
+* Clone this repository to your local machine.
+* Have Docker installed.
+* Build the Docker container using the Dockerfile.
+* Run the Docker container.
 
 ## Docker Container
-
+#### To use the Docker container, follow these steps:
+* Open the project directory in your terminal.
+* Build a Docker image using the following command
+   'docker build -t api_image .'
+* Creating a Docker container from the built image
+   'docker run -p 8000:8000 api_image'
+* The API will be available at http://localhost:8000
+* The API documentaion will be avaialable at http://localhost:8000/docs or http://localhost:8000/redoc
 
 ## API Usage
 
