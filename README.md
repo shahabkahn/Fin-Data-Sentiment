@@ -3,13 +3,13 @@
 
 ## Table of Contents
 * [Introduction](#Introduction)
-* Requirements
-* Code Overview
-* Installation
-* Docker Container
-* API Usage
-* API Testing
-* Model
+* [Requirements](#Requirements)
+* [Code Overview](#Code Overview)
+* [Installation](#Installation)
+* [Docker Container](#Docker Container)
+* [API Usage](#API USAGE)
+* [API Testing](#API Testing)
+* [Model](#Model)
 
 ## Introduction
 #### The main purpose of this project is to develop an API for sentiment analysis tasks using FastAPI, Docker, and Hugging Face Transformers. It passes input through the model to classify the sentiment as positive, negative, or neutral.
