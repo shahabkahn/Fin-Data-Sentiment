@@ -4,11 +4,11 @@
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Requirements](#Requirements)
-* [Code Overview](#Code Overview)
+* [Code Overview](#CodeOverview)
 * [Installation](#Installation)
-* [Docker Container](#Docker Container)
-* [API Usage](#API USAGE)
-* [API Testing](#API Testing)
+* [Docker Container](#DockerContainer)
+* [API Usage](#APIUSAGE)
+* [API Testing](#APITesting)
 * [Model](#Model)
 
 ## Introduction
